@@ -2,9 +2,9 @@
 class Connection {
 	//Add (or remove) as many databases as you would like.  See ReadMe for naming conventions.
 	public $db1 = array(
-		"host" => "$mysql_service.address.public:$mysql_service.port",
-		"user" => "$mysql_service.username",
-		"pw" => "$mysql_service.password",
+		"host" => "{{ mysqlservice.address.private }}:{{ mysqlservice.MysqlPort }}",
+		"user" => "{{ mysqlservice.MYSQL_USER }}",
+		"pw" => "{{ mysqlservice.{{ MYSQL_PASSWORD }}",
 		"db_name" => "sampledb"
 	);
 	public $db2 = array(
