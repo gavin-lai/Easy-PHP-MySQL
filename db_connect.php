@@ -1,6 +1,6 @@
 <?php
 class Connection {
-	//Add (or remove) as many databases as you would like.  See ReadMe for naming conventions.
+	//Add (or remove) as many databases as you would like. Please See ReadMe for naming conventions.
 	public $db1 = array(
 		"host" => "{{ mysqlservice.address.private }}:{{ mysqlservice.MysqlPort }}",
 		"user" => "{{ mysqlservice.MYSQL_USER }}",
