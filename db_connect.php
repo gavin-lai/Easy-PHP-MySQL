@@ -4,7 +4,7 @@ class Connection {
 	public $db1 = array(
 		"host" => "{{ mysqlservice.address.private }}:{{ mysqlservice.MysqlPort }}",
 		"user" => "{{ mysqlservice.MYSQL_USER }}",
-		"pw" => "{{ mysqlservice.{{ MYSQL_PASSWORD }}",
+		"pw" => "{{ mysqlservice.MYSQL_PASSWORD }}",
 		"db_name" => "sampledb"
 	);
 	public $db2 = array(
