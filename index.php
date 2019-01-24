@@ -2,7 +2,7 @@
 
 include 'db_connect.php';  //include the db_connect.php file
 
-print "<HTML><BODY><H1> Nov 29 2018 Here are the users of the sampledb created in the RDS a few seconds ago!</H1>\n";
+print "<HTML><BODY><H1> Jan 24 2019 Here are the users of the sampledb created in the RDS a few seconds ago!</H1>\n";
 print "<HTML><BODY><H1> testing Even More Testing this New code Showing the users of the sampledb that has been created in the RDS some seconds ago!</H1>\n";
 print "<HTML><BODY><H1> Even more testing With This New code Showing the users of the sampledb that has been created in the RDS some seconds ago!</H1>\n";
 
